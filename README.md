@@ -15,6 +15,7 @@ Skills sao "super poderes" que voce instala no Claude Code. Quando voce digita o
 | `/skill-copy-ads-ptbr` | Gera copy otimizada pra Meta Ads em Portugues BR: 60+ hooks, templates por etapa do funil, variacoes A/B |
 | `/skill-persona-profunda` | Gera persona completa com 30 dimensoes psicologicas + Buyer Persona + ICP + Mapa de Empatia |
 | `/skill-criativos-meta` | Briefing completo de criativos pra Meta Ads: roteiros de video, specs de imagem, calendario de producao |
+| `/skill-copy-builder` | **CRIE SUA PROPRIA SKILL DE COPY!** Entrevista voce sobre negocio, publico, tom, e referencias (Russell, Hormozi, Bencivenga, Sexy Canvas) e gera uma skill personalizada |
 
 ## Como instalar (3 passos)
 
@@ -36,6 +37,7 @@ cp -r skill-carrossel-instagram ~/.claude/skills/
 cp -r skill-copy-ads-ptbr ~/.claude/skills/
 cp -r skill-persona-profunda ~/.claude/skills/
 cp -r skill-criativos-meta ~/.claude/skills/
+cp -r skill-copy-builder ~/.claude/skills/
 
 # Windows (PowerShell):
 Copy-Item -Recurse skill-claude-md-builder $env:USERPROFILE\.claude\skills\
@@ -43,6 +45,7 @@ Copy-Item -Recurse skill-carrossel-instagram $env:USERPROFILE\.claude\skills\
 Copy-Item -Recurse skill-copy-ads-ptbr $env:USERPROFILE\.claude\skills\
 Copy-Item -Recurse skill-persona-profunda $env:USERPROFILE\.claude\skills\
 Copy-Item -Recurse skill-criativos-meta $env:USERPROFILE\.claude\skills\
+Copy-Item -Recurse skill-copy-builder $env:USERPROFILE\.claude\skills\
 ```
 
 ### 3. Reinicie o Claude Code
