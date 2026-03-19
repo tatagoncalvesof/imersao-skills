@@ -10,6 +10,7 @@ Skills sao "super poderes" que voce instala no Claude Code. Quando voce digita o
 
 | Skill | O que faz |
 |-------|----------|
+| `/skill-claude-md-builder` | **COMECE POR AQUI!** Cria seu CLAUDE.md interativamente — a IA te faz perguntas estrategicas e monta o arquivo automaticamente |
 | `/skill-carrossel-instagram` | Cria carrosseis completos pro Instagram: estrutura slide-a-slide, copy, captions e hashtags |
 | `/skill-copy-ads-ptbr` | Gera copy otimizada pra Meta Ads em Portugues BR: 60+ hooks, templates por etapa do funil, variacoes A/B |
 | `/skill-persona-profunda` | Gera persona completa com 30 dimensoes psicologicas + Buyer Persona + ICP + Mapa de Empatia |
@@ -30,12 +31,14 @@ git clone https://github.com/tatagoncalves/imersao-skills.git
 
 ```bash
 # Mac/Linux:
+cp -r skill-claude-md-builder ~/.claude/skills/
 cp -r skill-carrossel-instagram ~/.claude/skills/
 cp -r skill-copy-ads-ptbr ~/.claude/skills/
 cp -r skill-persona-profunda ~/.claude/skills/
 cp -r skill-criativos-meta ~/.claude/skills/
 
 # Windows (PowerShell):
+Copy-Item -Recurse skill-claude-md-builder $env:USERPROFILE\.claude\skills\
 Copy-Item -Recurse skill-carrossel-instagram $env:USERPROFILE\.claude\skills\
 Copy-Item -Recurse skill-copy-ads-ptbr $env:USERPROFILE\.claude\skills\
 Copy-Item -Recurse skill-persona-profunda $env:USERPROFILE\.claude\skills\
@@ -51,8 +54,12 @@ Feche e abra o Claude Code novamente. As skills ja estarao disponiveis!
 Dentro do Claude Code, basta digitar o nome da skill:
 
 ```
-/skill-carrossel-instagram
+/skill-claude-md-builder
 ```
+
+**Comece por essa!** Ela vai te guiar pra criar seu CLAUDE.md (o manual de instrucoes da IA pro seu negocio).
+
+Depois use as outras:
 
 E seguir as instrucoes que aparecem. Cada skill vai te pedir as informacoes do seu negocio (nicho, produto, publico) e gerar o resultado completo.
 
